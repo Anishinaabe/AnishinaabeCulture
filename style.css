@@ -1,0 +1,115 @@
+/* Nathan Whitcomb */
+/* 3/10/23 */
+/* Task 10 */
+
+h1	{
+	text-decoration: underline;
+	font-family: arial;	
+	font-size: 48px;
+}
+		
+h2	{
+	font-family: arial;	
+	font-size: 35px;
+}
+		
+body  {
+	background-image: url("OjibweFloralBackground.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+ }
+img {
+	border: 5px solid #555;
+}
+div.main  {
+	background-color: rgba(186, 184, 179,0.7);
+
+}
+p   {
+	font-family: arial;	
+	text-indent: 50px;
+	font-size: 25px;
+}
+img {
+	border: 5px solid #555;
+}
+/* The sidebar menu */
+.sidenav {
+  width: 200px;
+  position: relative;
+  z-index: 1;
+  background-color: rgba(186, 184, 179,0.7);
+  overflow-x: hidden;
+  float: right;
+}
+
+.sidenav a {
+  padding: 80px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  text-decoration: underline;
+}
+.sidenav a:hover {
+  color: #696969;
+}
+.PAGEsidenav {
+  width: 200px;
+  position: relative;
+  z-index: 1;
+  background-color: rgba(186, 184, 179,0.7);
+  overflow-x: hidden;
+  float: right;
+}
+.PAGEsidenav a {
+  padding: 50px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #0000FF;
+  display: block;
+  text-decoration: underline;
+  }
+.PAGEsidenav a:hover {
+  color: #00008B;
+}
+.main {
+  margin-left: 50px;
+  margin-right: 250px;
+  padding: 10px 10px;
+}
+
+/* Navigation Bar */
+.topnav {
+  width: 100%;
+  background-color: #696969;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 9.5px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #DCDCDC;
+  color: black;
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #696969;
+  color: black;
+  text-align: center;
+}
+
